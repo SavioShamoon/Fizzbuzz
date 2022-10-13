@@ -1,33 +1,23 @@
+public class FizzBuzz {
+    public static void main (String[]args) {
+        double c;
+        double d;
 
-/**
- * Write a description of class FizzBuzz here.
- *
- * @author (your name)
- * @version (a version number or a date)
- */
-public class FizzBuzz
-{
-    // instance variables - replace the example below with your own
-    private int x;
+        for (int a = 1; a <= 100 ; a++) {
+            c = (double) a / 3; 
+            d = (double) a / 5;
 
-    /**
-     * Constructor for objects of class FizzBuzz
-     */
-    public FizzBuzz()
-    {
-        // initialise instance variables
-        x = 0;
-    }
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+            if (c == (int)c && d == (int)d) {
+                System.out.println("FizzBuz");
+            } else if (c == Math.round(c)) {
+                System.out.println("Fizz");
+            } else if (d == Math.round(d)) {
+                System.out.println("Buzz");
+            }
+            else {
+                System.out.println(a);
+            }
+        }
     }
 }
+
