@@ -13,7 +13,7 @@ public class FizzBuzz {
                 System.out.println("Fizz");
             } else if (d == Math.round(d)) {
                 System.out.println("Buzz");
-            }
+            } 
             else {
                 System.out.println(a);
             }
