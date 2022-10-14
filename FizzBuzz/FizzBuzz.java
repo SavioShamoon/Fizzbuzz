@@ -7,7 +7,7 @@ public class FizzBuzz {
             c = (double) a / 3; //initializes c as a value of a divided by 3
             d = (double) a / 5;
 
-            if (c == (int)c && d == (int)d) {
+            if (c == Math.round(c) && d == Math.round(d)) {
                 System.out.println("FizzBuzz");
             } else if (c == Math.round(c)) {
                 System.out.println("Fizz");
